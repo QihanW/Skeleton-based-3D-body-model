@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 
-"""
 #error bars
 name_1 = ["data 1", "data 2", "data 1&2"]
 gb_1=[0.0297560, 0.0315333, 0.0279794]
@@ -123,8 +122,6 @@ plt.title("R2 Score")
 plt.ylabel("values")
 plt.show()
 
-"""
-"""
 
 #r2score lines
 gb_d1=[0.90241935, 0.90503832, 1.0, 0.89639045, 0.8908148, 0.90185546, 0.8637456, 0.84681994, 0.92114758, 0.80308528, 0.78111503, 0.35080594, 0.72401932, 0.93408721, 0.87444958, 0.91848531, 0.93829512, 0.90209333, 0.87929288, 0.90219589]
@@ -159,10 +156,6 @@ plt.xlabel("joints")
 plt.ylabel("values")
 plt.show()
 
-"""
-
-
-"""
 #train parameters lines
 
 x1=[]
@@ -211,8 +204,7 @@ plt.legend(frameon=True, fancybox=True)
 plt.xlabel("learning rate")
 plt.ylabel("Score")
 plt.show()
-"""
-"""
+
 #correlation
 import numpy as np
 import seaborn as sns
@@ -254,8 +246,6 @@ plt.xlabel("Angles")
 plt.ylabel("Joints")
 plt.show()
 
-"""
-"""
 size = 4
 a = list(range(size))
 
@@ -275,7 +265,7 @@ plt.ylabel("Deviation (cm)")
 plt.show()
 
 
-"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 
